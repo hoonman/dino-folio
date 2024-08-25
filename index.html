@@ -12,11 +12,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+<div class="container">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+        <div class="container col-xxl-7 px-4 py-3">
+            <a class="navbar-brand" href="#home">Jaehoon Song</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse" >
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+</div>
 
 
 <section id="home"></section>
-<div class="container col-xxl-7 col-xl-7 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+<!-- <div class="container col-xxl-7 col-xl-7 px-4 pt-5 mb-5 pb-5"> -->
+<div class="container col-xxl-7 col-xl-7 px-4 pt-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5 mt-5">
         <div class="col-10 col-sm-8 col-lg-6">
         <img src="./assets/hoonman_vector_large.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
         </div>
@@ -24,26 +48,26 @@
         <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi, I'm Jaehoon</h1>
         <p class="lead">I'm a full-stack software developer always striving to improve my programming efficiency</p>
         <p class="lead">Feel free to explore what I've been working on!</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <div class="d-grid d-md-flex justify-content-md-start">
             <!-- <a href="http://127.0.0.1:3000/index.html#home"> -->
             <a href="http://jaehoonsong.com/#home">
-            <button type="button" class="btn btn-link btn-lg px-4 me-md-2">
-            <img src="./assets/house-door.svg" alt="Home" width="24" height="24">
+            <button type="button" class="btn btn-link btn-lg icon-home">
+            <img src="./assets/logos/github.svg" alt="Home" width="24" height="24">
             </button>
             </a>
             <a href="https://jaehoonsong.com/#projects">
-            <button type="button" class="btn btn-outline-link btn-lg px-4 me-md-2">
-            <img src="./assets/archive.svg" alt="Projects" width="24" height="24">
+            <button type="button" class="btn btn-outline-link btn-lg icon-home">
+            <img src="./assets/logos/linkedin.svg" alt="Projects" width="24" height="24">
             </button>
             </a>
             <a href="https://jaehoonsong.com/#about">
-            <button type="button" class="btn btn-outline-link btn-lg px-4 me-md-2">
-            <img src="./assets/info-circle.svg" alt="Info" width="24" height="24">
+            <button type="button" class="btn btn-outline-link btn-lg icon-home">
+            <img src="./assets/logos/youtube.svg" alt="Info" width="24" height="24">
             </button>
             </a>
             <a href="https://jaehoonsong.com/#contact">
-            <button type="button" class="btn btn-outline-link btn-lg px-4">
-            <img src="./assets/envelope.svg" alt="Contact" width="24" height="24">
+            <button type="button" class="btn btn-outline-link btn-lg icon-home">
+            <img src="./assets/logos/twitter-x.svg" alt="Contact" width="24" height="24">
             </button>
             </a>
         </div>
@@ -51,9 +75,9 @@
     </div>
 </div>
 
-<div class="container col-xxl-7 col-xl-7">
-    <div class="row flex-lg-row-reverse g-5 py-5">
-        <img src="./assets/dino_line.png">
+<div class="container col-xxl-7 col-xl-7 pt-3">
+    <div class="row flex-lg-row-reverse g-5 pt-5">
+        <img src="./assets/dino_line_bottom.png">
     </div>
 </div>
 
@@ -164,8 +188,43 @@
       </div>
     </div>
   </div>
+<div class="container col-xxl-7 col-xl-7 mb-0 pb-0">
+    <div class="row flex-lg-row-reverse g-5 py-5 mb-0 pb-0">
+        <img src="./assets/dino_line_bottom.png">
+    </div>
+</div>
 
-</body>
+<!-- <div class="container">
+    <nav class="navbar navbar-expand-md navbar-light fixed-bottom">
+        <div class="container col-xxl-7 px-0 py-0">
+            <img src="assets/dino_line_bottom.png" alt="Dino Line" class="img-fluid mx-auto d-block">
+        </div>
+    </nav>
+</div> -->
+<!-- <div class="container">
+    <nav id="bottomNavbar" class="navbar navbar-expand-md navbar-light fixed-bottom p-0 m-0">
+        <div class="container d-flex justify-content-center p-0 m-0">
+            <div class="col-xxl-7 p-0 m-0 align-items-center">
+                <img src="assets/dino_line_bottom.png" alt="Dino Line" class="img-fluid w-100">
+            </div>
+        </div>
+    </nav>
+</div> -->
+
+<!-- <script>
+    let lastScrollTop = 0;
+    window.addEventListener("scroll", function() {
+        let navbar = document.getElementById("bottomNavbar");
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        if (scrollTop > lastScrollTop) {
+            navbar.style.transform = "translateY(100%)"; // Hide when scrolling down
+        } else {
+            navbar.style.transform = "translateY(0)"; // Show when scrolling up
+        }
+        lastScrollTop = scrollTop;
+    });
+</script> -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 
 </html>

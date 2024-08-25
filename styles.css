@@ -12,3 +12,13 @@ body {
     text-align: center; /* Center the image horizontally */
     position: relative;
 }
+
+nav {
+    background-color: rgb(230, 230, 230);
+    border-bottom: 1px solid #ccc
+}
+
+.icon-home {
+    padding-left: 0px;
+    padding-right: 32px;
+}
