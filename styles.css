@@ -4,10 +4,9 @@ body {
 }
 
 .dino-line {
-    width: 100%;
-    display: block;
-    margin-top: 20px; /* Add some margin if needed */
+    margin-top:43px;
 }
+
 .bottom-image-container {
     text-align: center; /* Center the image horizontally */
     position: relative;
