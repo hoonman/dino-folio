@@ -6,7 +6,6 @@ body {
 .dino-line {
     margin-top:43px;
 }
-
 .bottom-image-container {
     text-align: center; /* Center the image horizontally */
     position: relative;
@@ -19,5 +18,10 @@ nav {
 
 .icon-home {
     padding-left: 0px;
-    padding-right: 32px;
+    padding-right: 0px;
+    /* padding-right: 32px; */
+}
+
+.icon-div {
+    padding-right:32px;
 }
