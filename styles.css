@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(230, 230, 230);
+    font-family: "Poppins", sans-serif;
+}
+
+.dino-line {
+    width: 100%;
+    display: block;
+    margin-top: 20px; /* Add some margin if needed */
+}
+.bottom-image-container {
+    text-align: center; /* Center the image horizontally */
+    position: relative;
+}
